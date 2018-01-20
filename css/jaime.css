@@ -1,0 +1,26 @@
+#bi-weekly{
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+}
+
+body{
+	background-color: #018FD3;
+}
+
+.button{
+	display: inline-block;
+    margin: auto;
+    padding-top: 10px;
+}
+
+#logo{    
+    color: white;
+    font-size: 61px;
+    text-align: center;
+    padding-top: 82px;
+}
