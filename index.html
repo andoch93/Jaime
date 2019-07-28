@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Jaime - Money Management</title>
+	<title>Jaime - Budget Tool</title>
 	<link rel="stylesheet" href="css/jaime.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
@@ -10,18 +10,20 @@
 	<hr>
 	<div class="nav-bar">
 		<a href="index.html"><div class="link" id="home">Home</div></a>
-		<a href="categories.html"><div class="link">Categories</div></a>
-		<a href="charts.html"><div class="link">My Chart</div></a>
+		<!-- <a href="categories.html"><div class="link">Categories</div></a>
+		<a href="charts.html"><div class="link">My Chart</div></a> -->
 	</div>
 	<br>
 	<div id="bi-weekly">
-		<form action="/action_page.php" onsubmit="myFunction()">
+		<form action="/action_page.php" onsubmit="calculateBudget()">
 			Bi-Weekly Wage: $ <input type="number" id="myWage" name="myWage">
 			<div id="submit-button">
 				<input type="submit" value="Submit">
 			</div>
 		</form>
 	</div>
+
+
 
 
 	

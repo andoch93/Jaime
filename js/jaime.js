@@ -1,7 +1,7 @@
 var needs;
 var wants;
 
-function myFunction() {
+function calculateBudget() {
 	var wage = document.getElementById('myWage').value;
 
 	needs = wage * .5;
@@ -13,9 +13,9 @@ function myFunction() {
 	});
 
 	alert('Your Bi-Weekly pay is: ' + '$' + wage + '\n' +
-		'Your Recommended Needs budget is: ' + '$' + needs + '\n' +
-		'Your Recommended Wants budget is: ' + '$' + wants + '\n' +
-		'Your Recommended Savings budget is: ' + '$' + savings);
+		'50% - Your Recommended Needs budget is: ' + '$' + needs + '\n' +
+		'30% - Your Recommended Wants budget is: ' + '$' + wants + '\n' +
+		'20% - Your Recommended Savings budget is: ' + '$' + savings);
 }
 
 $("#submit-button").click(function(){
